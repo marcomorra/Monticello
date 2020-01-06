@@ -1,0 +1,562 @@
+* {
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+/* Ba-grid  */
+.ba-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.ba-row + .ba-row {
+  margin-top: 1rem; }
+
+[class^='ba-col'] {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%; }
+
+.ba-col-1 {
+  width: 8.33333%; }
+
+.ba-col-2 {
+  width: 16.66667%; }
+
+.ba-col-3 {
+  width: 25%; }
+
+.ba-col-4 {
+  width: 33.33333%; }
+
+.ba-col-5 {
+  width: 41.66667%; }
+
+.ba-col-6 {
+  width: 50%; }
+
+.ba-col-7 {
+  width: 58.33333%; }
+
+.ba-col-8 {
+  width: 66.66667%; }
+
+.ba-col-9 {
+  width: 75%; }
+
+.ba-col-10 {
+  width: 83.33333%; }
+
+.ba-col-11 {
+  width: 91.66667%; }
+
+.ba-col-12 {
+  width: 100%; }
+
+/* ba-common */
+.ba-text-center {
+  text-align: center; }
+
+.ba-text-left {
+  text-align: left; }
+
+.ba-text-right {
+  text-align: right; }
+
+.ba-text-justify {
+  text-align: justify; }
+
+* {
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+@font-face {
+  font-family: "GothamBold";
+  src: url("../fonts/GothamPro-Bold.woff");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamLight";
+  src: url("../fonts/GothamPro-Light.woff");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("../fonts/GothamPro-Medium.woff");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("../fonts/GothamBook.woff");
+  font-style: normal;
+  font-weight: normal; }
+
+/* Ba-grid  */
+.ba-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.ba-row + .ba-row {
+  margin-top: 1rem; }
+
+[class^='ba-col'] {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%; }
+
+.ba-col-1 {
+  width: 8.33333%; }
+
+.ba-col-2 {
+  width: 16.66667%; }
+
+.ba-col-3 {
+  width: 25%; }
+
+.ba-col-4 {
+  width: 33.33333%; }
+
+.ba-col-5 {
+  width: 41.66667%; }
+
+.ba-col-6 {
+  width: 50%; }
+
+.ba-col-7 {
+  width: 58.33333%; }
+
+.ba-col-8 {
+  width: 66.66667%; }
+
+.ba-col-9 {
+  width: 75%; }
+
+.ba-col-10 {
+  width: 83.33333%; }
+
+.ba-col-11 {
+  width: 91.66667%; }
+
+.ba-col-12 {
+  width: 100%; }
+
+i {
+  margin-right: 15px; }
+
+.fa-heart {
+  margin: 0; }
+
+.span2 {
+  margin-left: 20px; }
+
+/* ba-common */
+.ba-text-center {
+  text-align: center; }
+  .ba-text-center-left {
+    text-align: left; }
+  .ba-text-center-right {
+    text-align: right; }
+  .ba-text-center-justify {
+    text-align: justify; }
+
+h2 {
+  font-size: 2.75em;
+  text-transform: uppercase;
+  font-family: "GothamBold", sans-serif; }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 190px;
+  height: 50px;
+  border: 1px solid #000; }
+  .btn:hover {
+    background-color: #9fff9f;
+    color: #fff;
+    border: 1px solid #fff; }
+
+.ba-map {
+  min-height: 700px; }
+
+.ba-logo:hover {
+  transform: scale(1.1); }
+
+.ba-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  font-size: 1.14em;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .ba-menu__item {
+    display: flex;
+    align-items: center; }
+    .ba-menu__item:before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      border: 1px solid #fff;
+      margin-right: 10px; }
+    .ba-menu__item:hover::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      border: 1px solid #fff;
+      background-color: #fff; }
+    .ba-menu__item:not(:first-child) {
+      padding-left: 4.125em; }
+  .ba-menu__link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-family: "GothamBook", sans-serif; }
+
+.ba-social {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0; }
+  .ba-social__items {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-left: 15px; }
+    .ba-social__items.ba-menu__item:not(:first-child) {
+      margin-left: 1.31em; }
+    .ba-social__items:hover {
+      color: #7e5aff;
+      background-color: pink; }
+
+.ba-header {
+  color: #fff;
+  background: linear-gradient(to right, #55b7ff, #7e5aff); }
+  .ba-header-wrapper {
+    background-image: url(../img/backgroundhead.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh; }
+  .ba-header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; }
+  .ba-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5%; }
+  .ba-header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: G; }
+  .ba-header-title h1 {
+    font-size: 5em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-family: "GothamBold", sans-serif; }
+  .ba-header-title p {
+    font-size: 1.125em;
+    font-family: "GothamBook", sans-serif; }
+  .ba-header-scroll {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px; }
+  .ba-header-scroll a {
+    color: #fff;
+    text-decoration: none;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    border: 1px solid #fff; }
+    .ba-header-scroll a:hover {
+      color: #7e5aff;
+      background-color: pink; }
+
+p {
+  font-family: 'Open Sans', sans-serif; }
+
+.ba-section2 {
+  margin: 200px 0; }
+  .ba-section2-title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+    font-family: "GothamBold", sans-serif; }
+    .ba-section2-title::before {
+      content: "";
+      background-color: #000;
+      top: 4%;
+      left: 47%;
+      right: 47%;
+      width: 100px;
+      height: 1px;
+      position: absolute; }
+  .ba-section2-text {
+    position: relative; }
+  .ba-section2 .container {
+    display: flex; }
+  .ba-section2-one__svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: -80px; }
+  .ba-section2-one__img {
+    width: 100%; }
+  .ba-section2-two {
+    margin-left: 70px; }
+    .ba-section2-two h2 {
+      margin: 15px 0 40px; }
+    .ba-section2-two .btn {
+      margin: 40px 0 60px; }
+
+.ba-section3-block {
+  position: relative;
+  margin-bottom: 150px; }
+  .ba-section3-block .container {
+    display: flex; }
+  .ba-section3-block .ba-section3-left h2 {
+    margin: 15px 0 40px; }
+  .ba-section3-block .ba-section3-left .btn {
+    margin: 40px 0 60px; }
+  .ba-section3-block .ba-section3-right__svg {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: -100px;
+    height: 100%;
+    width: 38.5%; }
+
+.ba-section4 {
+  color: #ffff; }
+  .ba-section4-wrapper {
+    background-image: url(../img/section4.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 140px; }
+  .ba-section4-title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #ffff; }
+    .ba-section4-title .h2sec4 {
+      margin-top: 140px; }
+    .ba-section4-title :before {
+      content: '';
+      background-color: #ffff;
+      top: 140px;
+      left: 46%;
+      right: 46%;
+      width: auto;
+      height: 1px;
+      position: absolute; }
+  .ba-section4 .ba-section4-news {
+    display: flex;
+    padding-bottom: 210px; }
+  .ba-section4 .ba-section4-news-item {
+    color: #000; }
+    .ba-section4 .ba-section4-news-item img {
+      width: 100%; }
+  .ba-section4 .ba-section4-news-item-bottom {
+    padding: 30px 30px 40px 20px;
+    background-color: #ffff; }
+    .ba-section4 .ba-section4-news-item-bottom__title {
+      margin: 0; }
+    .ba-section4 .ba-section4-news-item-bottom .ba-section4-news-item-bottom-author {
+      padding: 0; }
+  .ba-section4 .ba-section4-news-item-bottom-author {
+    justify-content: flex-start;
+    padding: 20px; }
+    .ba-section4 .ba-section4-news-item-bottom-author a {
+      color: #55b7ff;
+      text-decoration: none; }
+
+.ba-section5-title {
+  display: flex;
+  justify-content: center;
+  position: relative; }
+  .ba-section5-title :before {
+    content: '';
+    background-color: black;
+    top: 4%;
+    left: 46%;
+    right: 46%;
+    width: auto;
+    height: 1px;
+    position: absolute; }
+
+.ba-section5-btn-wrapper {
+  display: flex;
+  justify-content: center; }
+  .ba-section5-btn-wrapper .a {
+    margin-top: 60px; }
+
+.ba-section5-btn-wrapper .btn {
+  margin-top: 60px; }
+
+.ba-section6 {
+  margin-top: 145px; }
+
+.ba-footer {
+  color: #ffff;
+  height: 522px;
+  position: relative; }
+  .ba-footer .ba-footer-wrapper {
+    background-image: url(../img/footer.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100%; }
+    .ba-footer .ba-footer-wrapper .container2 {
+      padding-top: 200px; }
+  .ba-footer .container2 {
+    max-width: 770px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px; }
+  .ba-footer .ba-footer-wr {
+    display: flex;
+    justify-content: space-between; }
+  .ba-footer .contact {
+    position: absolute;
+    color: black;
+    background-color: #fff;
+    opacity: 0.98;
+    top: -300px;
+    background-image: url(../img/city.png);
+    background-position: center;
+    width: 770px;
+    height: 450px;
+    background-size: cover; }
+    .ba-footer .contact i {
+      color: #7e5aff;
+      margin-right: 12px; }
+    .ba-footer .contact-title {
+      position: relative;
+      left: 30%;
+      margin-top: 90px; }
+    .ba-footer .contact .form {
+      padding: 0 60px;
+      margin: 0; }
+      .ba-footer .contact .form .btn {
+        background-color: transparent;
+        width: 140px;
+        height: 60px;
+        margin-top: 40px; }
+        .ba-footer .contact .form .btn:hover {
+          background-color: #9fff9f;
+          color: #fff;
+          border: 1px solid #fff; }
+      .ba-footer .contact .form .ba-row:not(:first-child) {
+        margin-top: 45px; }
+      .ba-footer .contact .form input {
+        width: 100%;
+        border: none;
+        padding: 0 0 20px 0;
+        border-bottom: 2px solid #2c4058;
+        font-size: 1.125rem;
+        background-color: transparent;
+        line-height: 22px;
+        font-weight: 500; }
+      .ba-footer .contact .form .second-input {
+        padding: 40px 0 20px 0;
+        border-color: #d5d9de;
+        color: blue; }
+    .ba-footer .contact-title::before {
+      content: '';
+      background-color: black;
+      top: -30px;
+      left: 35%;
+      right: 35%;
+      width: 100px;
+      height: 1px;
+      position: absolute; }
+  .ba-footer .ba-copyright {
+    margin-right: 25px; }
+
+.slick-dots {
+  -webkit-transform: translate(-50%, 0) rotate(90deg);
+  -ms-transform: translate(-50%, 0) rotate(90deg);
+  transform: translate(-50%, -2000%) rotate(90deg);
+  left: 89%;
+  bottom: -10%; }
+
+.ba-slider2 .slick-dots {
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, -2000%);
+  left: 50%;
+  bottom: -55%; }
+
+.slick-dots li button:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #ffff;
+  font-family: 'slick';
+  font-size: 6px;
+  position: absolute;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.slick-dots li.slick-active button:before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #fff; }
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: fontawesome;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #ffff; }
+
+.slick-prev:before {
+  content: '\f104'; }
+
+.slick-next:before {
+  content: '\f105'; }
